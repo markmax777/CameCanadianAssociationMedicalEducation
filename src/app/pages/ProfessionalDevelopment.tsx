@@ -26,6 +26,7 @@ export function ProfessionalDevelopment() {
       path: "/programs/clime-2-0",
       duration: t.clime20Duration,
       format: t.clime20Format,
+      registerPath: "/programs/clime-2-0/register",
     },
     {
       title: t.clime2027Title,
@@ -34,6 +35,7 @@ export function ProfessionalDevelopment() {
       path: "/programs/clime-2027",
       duration: t.clime2027Duration,
       format: t.clime2027Format,
+      registerPath: "/programs/clime-2027/register",
     },
     {
       title: t.iclem1Title,
@@ -42,6 +44,7 @@ export function ProfessionalDevelopment() {
       path: "/programs/iclem-1-0-2027",
       duration: t.iclem1Duration,
       format: t.iclem1Format,
+      registerPath: "/programs/iclem-1-0-2027/register",
     },
     {
       title: t.camePacccTitle,
@@ -209,20 +212,11 @@ export function ProfessionalDevelopment() {
                   <div className="w-16 h-16 bg-primary/10 rounded-xl flex items-center justify-center flex-shrink-0">
                     <GraduationCap className="w-8 h-8 text-primary" />
                   </div>
-                  <div>
+                  <div className="flex-1">
                     <h3 className="mb-2">{program.title}</h3>
                     <p className="text-lg text-muted-foreground mb-2">{program.description}</p>
-                  </div>
-                </div>
-
-                <div className="grid md:grid-cols-2 gap-6">
-                  <Link
-                    to={program.path}
-                    className="block bg-gray-50 rounded-xl p-6 hover:bg-primary/5 transition-colors"
-                  >
-                    <h4 className="mb-4">{program.title}</h4>
                     {program.duration && (
-                      <div className="space-y-2 mb-4">
+                      <div className="space-y-2 mt-4">
                         <p className="text-sm text-muted-foreground">
                           <span className="font-semibold">{durationLabel}:</span> {program.duration}
                         </p>
@@ -231,9 +225,25 @@ export function ProfessionalDevelopment() {
                         </p>
                       </div>
                     )}
-                    <span className="text-primary font-semibold">{t.learnMore} →</span>
-                  </Link>
+                  </div>
                 </div>
+
+                {program.registerPath && (
+                  <div className="flex justify-end gap-4 mt-6">
+                    <Link
+                      to={program.registerPath}
+                      className="px-6 py-3 bg-accent text-accent-foreground rounded-lg hover:bg-accent/90 transition-colors font-semibold"
+                    >
+                      {language === 'fr' ? "S'inscrire" : "Register Now"}
+                    </Link>
+                    <Link
+                      to={program.path}
+                      className="px-6 py-3 border-2 border-primary text-primary rounded-lg hover:bg-primary/5 transition-colors font-semibold"
+                    >
+                      {t.learnMore}
+                    </Link>
+                  </div>
+                )}
               </motion.div>
             ))}
           </div>

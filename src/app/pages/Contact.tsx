@@ -65,7 +65,7 @@ export function Contact() {
                   <div>
                     <h3 className="font-semibold text-primary mb-2">{t.phone}</h3>
                     <p className="text-gray-700">613-730-8173</p>
-                    <p className="text-gray-600 text-sm">{language === 'fr' ? 'Télécopieur' : 'Fax'}: 613-730-1196</p>
+                    <p className="text-gray-600 text-sm">{language === 'fr' ? 'Télécopieur' : 'Fax'}: (613) 730-1196</p>
                   </div>
                 </div>
 

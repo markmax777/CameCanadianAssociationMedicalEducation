@@ -27,6 +27,10 @@ export const footerTranslations = {
     haveQuestions: "Have questions?",
     contactUs: "Contact us",
     
+    fax: "Fax",
+    privacyPolicy: "Privacy Policy",
+    termsOfUse: "Terms of Use",
+    
     copyright: "Canadian Association for Medical Education. All rights reserved."
   },
   fr: {
@@ -56,6 +60,10 @@ export const footerTranslations = {
     subscribeButton: "S'abonner",
     haveQuestions: "Vous avez des questions?",
     contactUs: "Contactez-nous",
+    
+    fax: "Télécopieur",
+    privacyPolicy: "Politique de confidentialité",
+    termsOfUse: "Conditions d'utilisation",
     
     copyright: "Association canadienne pour l'éducation médicale. Tous droits réservés."
   }

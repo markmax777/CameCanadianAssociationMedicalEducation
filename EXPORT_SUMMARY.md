@@ -286,34 +286,6 @@ For comprehensive pre-deployment verification:
 
 ---
 
-## 🎓 Learning Path
-
-### Day 1: Get Started
-1. Read [README.md](./README.md)
-2. Follow [QUICK_START.md](./QUICK_START.md)
-3. Make a small edit (change translation)
-4. Test EN/FR toggle
-
-### Day 2: Push to GitHub
-1. Read [GITHUB_SETUP.md](./GITHUB_SETUP.md)
-2. Initialize Git repository
-3. Commit all files
-4. Push to GitHub
-
-### Day 3: Deploy
-1. Read [DEPLOYMENT.md](./DEPLOYMENT.md)
-2. Choose hosting platform
-3. Deploy your site
-4. Test live website
-
-### Week 2: Customize
-1. Read [CONTRIBUTING.md](./CONTRIBUTING.md)
-2. Read [TRANSLATIONS.md](./TRANSLATIONS.md)
-3. Add new content
-4. Create new pages
-
----
-
 ## 📊 Project Statistics
 
 ### Code
@@ -455,7 +427,9 @@ You now have a **production-ready, professionally documented, bilingual website*
 **Canadian Association for Medical Education (CAME)**
 - Address: 150 Elgin Street, 10th Floor, Ottawa, Ontario K2P 1L4
 - Phone: 613-730-8173
+- Fax: (613) 730-1196
 - Email: came@afmc.ca
+- X (Twitter): https://x.com/cameacem
 
 ---
 

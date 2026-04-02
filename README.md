@@ -265,9 +265,10 @@ This project is private and proprietary to the Canadian Association for Medical 
 
 - **Address**: 150 Elgin Street, 10th Floor, Ottawa, Ontario K2P 1L4
 - **Phone**: 613-730-8173
-- **Fax**: 613-730-1196
+- **Fax**: (613) 730-1196
 - **Email**: came@afmc.ca
 - **Website**: [coming soon]
+- **X (Twitter)**: https://x.com/cameacem
 
 ## 🙏 Acknowledgments
 

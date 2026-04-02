@@ -26,6 +26,9 @@ import { LearningResources } from "./pages/professional-development/LearningReso
 import { Clime20 } from "./pages/programs/Clime20";
 import { Clime2027 } from "./pages/programs/Clime2027";
 import { Iclem102027 } from "./pages/programs/Iclem102027";
+import { Clime20Register } from "./pages/programs/Clime20Register";
+import { Clime2027Register } from "./pages/programs/Clime2027Register";
+import { Iclem102027Register } from "./pages/programs/Iclem102027Register";
 import { CamePaccc } from "./pages/programs/CamePaccc";
 import { AwardsGrants } from "./pages/AwardsGrants";
 import { AwardsNominations } from "./pages/awards-grants/AwardsNominations";
@@ -40,6 +43,7 @@ import { FoundationGrants } from "./pages/foundation/FoundationGrants";
 import { Donate } from "./pages/Donate";
 import { Store } from "./pages/Store";
 import { Contact } from "./pages/Contact";
+import { Checkout } from "./pages/Checkout";
 import { NotFound } from "./pages/NotFound";
 
 export const router = createBrowserRouter([
@@ -81,6 +85,9 @@ export const router = createBrowserRouter([
       { path: "programs/clime-2-0", Component: Clime20 },
       { path: "programs/clime-2027", Component: Clime2027 },
       { path: "programs/iclem-1-0-2027", Component: Iclem102027 },
+      { path: "programs/clime-2-0/register", Component: Clime20Register },
+      { path: "programs/clime-2027/register", Component: Clime2027Register },
+      { path: "programs/iclem-1-0-2027/register", Component: Iclem102027Register },
       { path: "programs/came-paccc", Component: CamePaccc },
       
       // Awards & Grants routes
@@ -103,6 +110,7 @@ export const router = createBrowserRouter([
       // Other routes
       { path: "store", Component: Store },
       { path: "contact", Component: Contact },
+      { path: "checkout", Component: Checkout },
       
       // 404
       { path: "*", Component: NotFound },

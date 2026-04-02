@@ -1,5 +1,5 @@
 import { Link } from "react-router";
-import { Mail, Phone, MapPin, Facebook, Twitter, Linkedin } from "lucide-react";
+import { Mail, Phone, MapPin, Facebook, Twitter, Linkedin, Printer } from "lucide-react";
 import { useLanguage } from "../contexts/LanguageContext";
 import { footerTranslations } from "../translations/footer-translations";
 
@@ -107,7 +107,7 @@ export function Footer() {
 
         {/* Contact Information */}
         <div className="border-t border-white/20 pt-8 mb-8">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             <div className="flex items-start space-x-3">
               <MapPin className="w-5 h-5 mt-1 flex-shrink-0" />
               <div>
@@ -118,6 +118,13 @@ export function Footer() {
             <div className="flex items-center space-x-3">
               <Phone className="w-5 h-5 flex-shrink-0" />
               <p className="text-white/90">613-730-8173</p>
+            </div>
+            <div className="flex items-center space-x-3">
+              <Printer className="w-5 h-5 flex-shrink-0" />
+              <div>
+                <p className="text-xs text-white/60">{t.fax || 'Fax'}</p>
+                <p className="text-white/90">(613) 730-1196</p>
+              </div>
             </div>
             <div className="flex items-center space-x-3">
               <Mail className="w-5 h-5 flex-shrink-0" />
@@ -150,19 +157,60 @@ export function Footer() {
         </div>
 
         {/* Social Media & Copyright */}
-        <div className="border-t border-white/20 pt-8 flex flex-col md:flex-row items-center justify-between">
-          <p className="text-white/80 text-sm mb-4 md:mb-0">
-            © {new Date().getFullYear()} {t.copyright}
-          </p>
-          <div className="flex items-center space-x-4">
-            <a href="#" className="text-white/80 hover:text-white transition-colors">
-              <Facebook className="w-5 h-5" />
+        <div className="border-t border-white/20 pt-8">
+          <div className="flex flex-col md:flex-row items-center justify-between mb-4">
+            <p className="text-white/80 text-sm mb-4 md:mb-0">
+              © {new Date().getFullYear()} {t.copyright}
+            </p>
+            <div className="flex items-center space-x-4">
+              <a 
+                href="https://www.facebook.com/cameacem" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-white/80 hover:text-white transition-colors"
+                aria-label="Facebook"
+              >
+                <Facebook className="w-5 h-5" />
+              </a>
+              <a 
+                href="https://x.com/cameacem" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-white/80 hover:text-white transition-colors"
+                aria-label="X (Twitter)"
+              >
+                <Twitter className="w-5 h-5" />
+              </a>
+              <a 
+                href="https://www.linkedin.com/company/cameacem" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-white/80 hover:text-white transition-colors"
+                aria-label="LinkedIn"
+              >
+                <Linkedin className="w-5 h-5" />
+              </a>
+            </div>
+          </div>
+          
+          {/* Privacy & Terms */}
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 text-sm text-white/70">
+            <a 
+              href="https://www.came-acem.ca/wp-content/uploads/2018/01/PRIVACY-POLICY_2018_ENG.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-white transition-colors underline"
+            >
+              {t.privacyPolicy || 'Privacy Policy'}
             </a>
-            <a href="#" className="text-white/80 hover:text-white transition-colors">
-              <Twitter className="w-5 h-5" />
-            </a>
-            <a href="#" className="text-white/80 hover:text-white transition-colors">
-              <Linkedin className="w-5 h-5" />
+            <span className="hidden sm:inline">•</span>
+            <a 
+              href="https://www.came-acem.ca/wp-content/uploads/2018/01/TERMS-OF-USE_2018.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-white transition-colors underline"
+            >
+              {t.termsOfUse || 'Terms of Use'}
             </a>
           </div>
         </div>
