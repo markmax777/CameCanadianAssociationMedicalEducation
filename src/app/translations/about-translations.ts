@@ -1,0 +1,290 @@
+export const aboutTranslations = {
+  en: {
+    // Main About Page
+    pageTitle: "About CAME",
+    heroTitle: "Leading the Future of Medical Education in Canada",
+    heroSubtitle: "Dedicated to advancing excellence across the full continuum of health professions education",
+    heroSince: "Leading medical education excellence across Canada since 1975",
+
+    // Mission & Vision Section
+    missionVisionTitle: "Our Mission & Vision",
+    missionVisionIntro: "Driving excellence in medical education across Canada through leadership, innovation, and collaborative learning.",
+    missionTitle: "Our Mission",
+    missionText: "To advance health professions education through scholarship, leadership development, and community building.",
+    missionTextFull: "To advance excellence in medical education across Canada by fostering innovation, scholarship, and leadership development among medical educators, and by promoting collaboration and knowledge exchange within the medical education community.",
+    visionTitle: "Our Vision",
+    visionText: "Excellence in health professions education benefiting all Canadians.",
+    visionTextFull: "To be the premier national organization for medical education in Canada, recognized internationally for our leadership in advancing innovative educational practices, supporting medical educators, and improving health outcomes through excellence in teaching and learning.",
+
+    // Values
+    valuesTitle: "Our Values",
+    coreValuesTitle: "Our Core Values",
+    value1: "Excellence",
+    value1Desc: "Commitment to the highest standards in medical education",
+    value1DescFull: "We strive for the highest standards in medical education, research, and professional development.",
+    value2: "Innovation",
+    value2Desc: "Embracing new approaches to teaching and learning",
+    value2DescFull: "We embrace new ideas and evidence-based practices to continuously improve medical education.",
+    value3: "Collaboration",
+    value3Desc: "Building partnerships across institutions and disciplines",
+    value3DescFull: "We believe in the power of collective expertise and shared knowledge to advance our field.",
+    value4: "Equity",
+    value4Desc: "Ensuring accessible, inclusive education for all",
+    value5: "Diversity & Inclusion",
+    value5Desc: "We champion diverse perspectives and inclusive practices in all aspects of medical education.",
+    value6: "Leadership",
+    value6Desc: "We develop and support the next generation of medical education leaders across Canada.",
+    value7: "Impact",
+    value7Desc: "We focus on outcomes that improve medical education and ultimately enhance patient care.",
+
+    // Leadership Section
+    leadershipTitle: "Leadership",
+    leadershipSubtitle: "Meet the dedicated leaders guiding CAME's mission",
+    leadershipSection: "Our Leadership",
+    leadershipPageSubtitle: "Dedicated professionals guiding CAME's mission to advance medical education across Canada.",
+    leadershipCardDesc: "Dedicated professionals guiding CAME's mission to advance medical education across Canada.",
+    boardTitle: "Board of Directors",
+    boardDesc: "Our elected board members who provide strategic direction and governance for the organization.",
+    boardIntro: "Our board members provide strategic leadership and governance, ensuring CAME continues to advance medical education excellence across Canada.",
+    committeesTitle: "Committees",
+    committeesDesc: "Specialized committees working on key initiatives, programs, and strategic priorities.",
+    committeesIntro: "Our committees drive CAME's key initiatives and ensure excellence across all aspects of our organization.",
+    executiveTitle: "Executive Team",
+    advisoryTitle: "Advisory Council",
+    representativesTitle: "School Representatives",
+    representativesDesc: "Representatives from all 17 Canadian medical schools ensuring national representation.",
+    schoolRepsIntro: "Representatives from all 17 Canadian medical schools ensure national collaboration and knowledge sharing.",
+    viewBoardMembers: "View Board Members →",
+    viewCommittees: "View Committees →",
+    viewRepresentatives: "View Representatives →",
+
+    // Governance
+    governanceTitle: "Governance & Elections",
+    boardTermsTitle: "Board Terms",
+    boardTermsDesc: "Board members serve three-year terms and are elected by CAME's voting members. Elections are held annually to fill expiring positions.",
+    meetingsTitle: "Meetings",
+    meetingsDesc: "The Board meets quarterly to review organizational strategy, approve budgets, and provide oversight of CAME's programs and initiatives.",
+    getInvolvedTitle: "Get Involved",
+    getInvolvedDesc: "CAME members are encouraged to participate in committee work. Committee positions are announced annually with opportunities to contribute your expertise and shape the future of medical education in Canada.",
+    expressInterest: "Express Your Interest",
+    chairLabel: "Chair:",
+    membersLabel: "members",
+    representativeLabel: "Representative:",
+
+    // School Rep Roles
+    roleTitle: "Role of School Representatives",
+    roleDesc: "School representatives serve as vital links between their institutions and CAME, facilitating communication, sharing best practices, and ensuring that CAME's programs and initiatives reflect the diverse needs of medical education across Canada.",
+    roleAdvocate: "Advocate",
+    roleAdvocateDesc: "Represent the interests and perspectives of their medical school within CAME.",
+    roleConnect: "Connect",
+    roleConnectDesc: "Share CAME resources and opportunities with colleagues at their institution.",
+    roleCollaborate: "Collaborate",
+    roleCollaborateDesc: "Participate in national initiatives and facilitate cross-institutional learning.",
+
+    // History Section
+    historyTitle: "Our History",
+    historySubtitle: "Over three decades of advancing medical education in Canada",
+    historyImpactTitle: "Our History & Impact",
+    historyImpactSubtitle: "Nearly five decades of advancing medical education excellence across Canada and beyond.",
+    founding: "Founded",
+    foundingYear: "July 1, 1987",
+    foundingText: "CAME was established to create a national voice for medical educators across Canada.",
+    growth: "Growth & Expansion",
+    growthText: "Expanded programs, increased membership, and strengthened partnerships with medical schools nationwide.",
+    today: "Today",
+    todayText: "CAME continues to lead innovation in medical education, supporting thousands of educators and learners.",
+
+    // Journey / Milestones
+    journeyTitle: "Our Journey",
+    journeySubtitle: "Key milestones in CAME's history",
+    milestone1Title: "CAME Founded",
+    milestone1Desc: "Established to advance medical education across Canada",
+    milestone2Title: "First National Conference",
+    milestone2Desc: "Launched annual gathering of medical educators",
+    milestone3Title: "Leadership Programs Begin",
+    milestone3Desc: "Introduced CLIME to develop educational leaders",
+    milestone4Title: "International Expansion",
+    milestone4Desc: "Partnered with global medical education organizations",
+    milestone5Title: "Foundation Established",
+    milestone5Desc: "Created funding for medical education innovation",
+    milestone6Title: "Digital Transformation",
+    milestone6Desc: "Expanded virtual learning and webinar offerings",
+
+    // Legacy
+    legacyTitle: "Our Legacy",
+    legacySubtitle: "CAME's impact extends far beyond our programs and initiatives, shaping the future of medical education in Canada.",
+    educationalExcellenceTitle: "Educational Excellence",
+    educationalExcellenceDesc: "Our members have transformed medical education programs across all 17 Canadian medical schools, raising standards and improving outcomes.",
+    leadershipDevTitle: "Leadership Development",
+    leadershipDevDesc: "Our leadership programs have prepared hundreds of medical educators for leadership roles in their institutions and beyond.",
+    researchInnovationTitle: "Research & Innovation",
+    researchInnovationDesc: "Through grants and awards, we've supported groundbreaking research that has advanced the science of medical education.",
+
+    // Stats
+    statsActiveMembers: "Active Members",
+    statsAwardsGiven: "Awards Given",
+    statsPrograms: "Programs Delivered",
+    statsYears: "Years of Excellence",
+
+    // Overview Section
+    overviewTitle: "Who We Are",
+    overviewText1: "The Canadian Association for Medical Education (CAME) is the national organization dedicated to promoting, advancing, and recognizing excellence across the full continuum of medical education in Canada.",
+    overviewText2: "Founded on July 1, 1987, CAME brings together educators, clinicians, researchers, and learners committed to improving how medicine is taught and practiced throughout Canada.",
+    overviewText3: "We serve as the national voice for health professions educators, providing leadership, support, and recognition to those who dedicate their careers to teaching the next generation of healthcare professionals.",
+
+    // Truth and Reconciliation
+    truthTitle: "Truth and Reconciliation",
+    truthText1: "CAME acknowledges that we gather on the traditional unceded territories of Indigenous peoples across Canada. We are committed to advancing reconciliation in medical education.",
+    truthText2: "We support the integration of Indigenous knowledge, perspectives, and cultural safety into medical curricula and are dedicated to addressing health inequities affecting Indigenous communities.",
+
+    // Quick Links
+    learnMoreMission: "Learn About Our Mission",
+    meetLeadership: "Meet Our Leadership",
+    exploreHistory: "Explore Our History",
+    joinCommunity: "Join Our Community"
+  },
+  fr: {
+    // Main About Page
+    pageTitle: "À propos de l'ACEM",
+    heroTitle: "Leader de l'avenir de l'éducation médicale au Canada",
+    heroSubtitle: "Dédiés à promouvoir l'excellence dans tout le continuum de l'éducation des professions de la santé",
+    heroSince: "À la tête de l'excellence en éducation médicale au Canada depuis 1975",
+
+    // Mission & Vision Section
+    missionVisionTitle: "Notre mission et vision",
+    missionVisionIntro: "Favoriser l'excellence en éducation médicale au Canada par le leadership, l'innovation et l'apprentissage collaboratif.",
+    missionTitle: "Notre mission",
+    missionText: "Faire progresser l'éducation des professions de la santé par la recherche, le développement du leadership et le renforcement de la communauté.",
+    missionTextFull: "Favoriser l'excellence en éducation médicale au Canada en encourageant l'innovation, l'érudition et le développement du leadership parmi les éducateurs médicaux, et en promouvant la collaboration et l'échange de connaissances au sein de la communauté de l'éducation médicale.",
+    visionTitle: "Notre vision",
+    visionText: "L'excellence en éducation des professions de la santé au bénéfice de tous les Canadiens.",
+    visionTextFull: "Être l'organisation nationale de référence pour l'éducation médicale au Canada, reconnue internationalement pour notre leadership dans le développement de pratiques éducatives innovantes, le soutien aux éducateurs médicaux et l'amélioration des résultats de santé grâce à l'excellence en enseignement et apprentissage.",
+
+    // Values
+    valuesTitle: "Nos valeurs",
+    coreValuesTitle: "Nos valeurs fondamentales",
+    value1: "Excellence",
+    value1Desc: "Engagement envers les plus hauts standards en éducation médicale",
+    value1DescFull: "Nous visons les plus hauts standards en éducation médicale, en recherche et en développement professionnel.",
+    value2: "Innovation",
+    value2Desc: "Adoption de nouvelles approches d'enseignement et d'apprentissage",
+    value2DescFull: "Nous adoptons de nouvelles idées et des pratiques fondées sur des preuves pour améliorer continuellement l'éducation médicale.",
+    value3: "Collaboration",
+    value3Desc: "Établissement de partenariats entre institutions et disciplines",
+    value3DescFull: "Nous croyons au pouvoir de l'expertise collective et du partage des connaissances pour faire avancer notre domaine.",
+    value4: "Équité",
+    value4Desc: "Assurer une éducation accessible et inclusive pour tous",
+    value5: "Diversité et inclusion",
+    value5Desc: "Nous défendons des perspectives diverses et des pratiques inclusives dans tous les aspects de l'éducation médicale.",
+    value6: "Leadership",
+    value6Desc: "Nous développons et soutenons la prochaine génération de leaders en éducation médicale partout au Canada.",
+    value7: "Impact",
+    value7Desc: "Nous nous concentrons sur les résultats qui améliorent l'éducation médicale et, en fin de compte, les soins aux patients.",
+
+    // Leadership Section
+    leadershipTitle: "Leadership",
+    leadershipSubtitle: "Rencontrez les leaders dévoués qui guident la mission de l'ACEM",
+    leadershipSection: "Notre leadership",
+    leadershipPageSubtitle: "Des professionnels dévoués qui guident la mission de l'ACEM pour faire progresser l'éducation médicale au Canada.",
+    leadershipCardDesc: "Des professionnels dévoués qui guident la mission de l'ACEM pour faire progresser l'éducation médicale au Canada.",
+    boardTitle: "Conseil d'administration",
+    boardDesc: "Nos membres élus du conseil qui assurent la direction stratégique et la gouvernance de l'organisation.",
+    boardIntro: "Nos membres du conseil assurent un leadership stratégique et une gouvernance solide, veillant à ce que l'ACEM continue de faire progresser l'excellence en éducation médicale au Canada.",
+    committeesTitle: "Comités",
+    committeesDesc: "Des comités spécialisés travaillant sur des initiatives clés, des programmes et des priorités stratégiques.",
+    committeesIntro: "Nos comités pilotent les initiatives clés de l'ACEM et garantissent l'excellence dans tous les aspects de notre organisation.",
+    executiveTitle: "Équipe exécutive",
+    advisoryTitle: "Conseil consultatif",
+    representativesTitle: "Représentants des écoles",
+    representativesDesc: "Représentants de toutes les 17 écoles de médecine canadiennes assurant une représentation nationale.",
+    schoolRepsIntro: "Les représentants de toutes les 17 écoles de médecine canadiennes assurent la collaboration nationale et le partage des connaissances.",
+    viewBoardMembers: "Voir les membres du conseil →",
+    viewCommittees: "Voir les comités →",
+    viewRepresentatives: "Voir les représentants →",
+
+    // Governance
+    governanceTitle: "Gouvernance et élections",
+    boardTermsTitle: "Mandats du conseil",
+    boardTermsDesc: "Les membres du conseil servent des mandats de trois ans et sont élus par les membres votants de l'ACEM. Des élections sont tenues annuellement pour pourvoir les postes à combler.",
+    meetingsTitle: "Réunions",
+    meetingsDesc: "Le conseil se réunit trimestriellement pour examiner la stratégie organisationnelle, approuver les budgets et superviser les programmes et initiatives de l'ACEM.",
+    getInvolvedTitle: "Impliquez-vous",
+    getInvolvedDesc: "Les membres de l'ACEM sont encouragés à participer aux travaux des comités. Les postes de comité sont annoncés annuellement avec des opportunités de contribuer votre expertise et de façonner l'avenir de l'éducation médicale au Canada.",
+    expressInterest: "Exprimer votre intérêt",
+    chairLabel: "Président :",
+    membersLabel: "membres",
+    representativeLabel: "Représentant :",
+
+    // School Rep Roles
+    roleTitle: "Rôle des représentants des écoles",
+    roleDesc: "Les représentants des écoles servent de liens essentiels entre leurs institutions et l'ACEM, facilitant la communication, partageant les meilleures pratiques et veillant à ce que les programmes et initiatives de l'ACEM reflètent les divers besoins de l'éducation médicale au Canada.",
+    roleAdvocate: "Défenseur",
+    roleAdvocateDesc: "Représenter les intérêts et les perspectives de leur école de médecine au sein de l'ACEM.",
+    roleConnect: "Connecter",
+    roleConnectDesc: "Partager les ressources et opportunités de l'ACEM avec les collègues de leur institution.",
+    roleCollaborate: "Collaborer",
+    roleCollaborateDesc: "Participer aux initiatives nationales et faciliter l'apprentissage inter-institutionnel.",
+
+    // History Section
+    historyTitle: "Notre histoire",
+    historySubtitle: "Plus de trois décennies à faire progresser l'éducation médicale au Canada",
+    historyImpactTitle: "Notre histoire et notre impact",
+    historyImpactSubtitle: "Près de cinq décennies à faire progresser l'excellence en éducation médicale au Canada et au-delà.",
+    founding: "Fondation",
+    foundingYear: "1er juillet 1987",
+    foundingText: "L'ACEM a été créée pour donner une voix nationale aux éducateurs médicaux partout au Canada.",
+    growth: "Croissance et expansion",
+    growthText: "Expansion des programmes, augmentation du nombre de membres et renforcement des partenariats avec les écoles de médecine à l'échelle nationale.",
+    today: "Aujourd'hui",
+    todayText: "L'ACEM continue de mener l'innovation en éducation médicale, soutenant des milliers d'éducateurs et d'apprenants.",
+
+    // Journey / Milestones
+    journeyTitle: "Notre parcours",
+    journeySubtitle: "Jalons clés de l'histoire de l'ACEM",
+    milestone1Title: "Fondation de l'ACEM",
+    milestone1Desc: "Créée pour faire progresser l'éducation médicale au Canada",
+    milestone2Title: "Première conférence nationale",
+    milestone2Desc: "Lancement du rassemblement annuel des éducateurs médicaux",
+    milestone3Title: "Début des programmes de leadership",
+    milestone3Desc: "Introduction de CLIME pour développer les leaders en éducation",
+    milestone4Title: "Expansion internationale",
+    milestone4Desc: "Partenariats avec des organisations mondiales d'éducation médicale",
+    milestone5Title: "Création de la Fondation",
+    milestone5Desc: "Création de financements pour l'innovation en éducation médicale",
+    milestone6Title: "Transformation numérique",
+    milestone6Desc: "Expansion de l'apprentissage virtuel et des offres de webinaires",
+
+    // Legacy
+    legacyTitle: "Notre héritage",
+    legacySubtitle: "L'impact de l'ACEM dépasse largement nos programmes et initiatives, façonnant l'avenir de l'éducation médicale au Canada.",
+    educationalExcellenceTitle: "Excellence éducative",
+    educationalExcellenceDesc: "Nos membres ont transformé les programmes d'éducation médicale dans les 17 écoles de médecine canadiennes, relevant les standards et améliorant les résultats.",
+    leadershipDevTitle: "Développement du leadership",
+    leadershipDevDesc: "Nos programmes de leadership ont préparé des centaines d'éducateurs médicaux à des rôles de leadership dans leurs institutions et au-delà.",
+    researchInnovationTitle: "Recherche et innovation",
+    researchInnovationDesc: "Grâce aux subventions et aux prix, nous avons soutenu des recherches révolutionnaires qui ont fait progresser la science de l'éducation médicale.",
+
+    // Stats
+    statsActiveMembers: "Membres actifs",
+    statsAwardsGiven: "Prix décernés",
+    statsPrograms: "Programmes dispensés",
+    statsYears: "Années d'excellence",
+
+    // Overview Section
+    overviewTitle: "Qui sommes-nous",
+    overviewText1: "L'Association canadienne pour l'éducation médicale (ACEM) est l'organisme national dédié à promouvoir, faire progresser et reconnaître l'excellence dans tout le continuum de l'éducation médicale au Canada.",
+    overviewText2: "Fondée le 1er juillet 1987, l'ACEM réunit des éducateurs, des cliniciens, des chercheurs et des apprenants engagés à améliorer la façon dont la médecine est enseignée et pratiquée partout au Canada.",
+    overviewText3: "Nous servons de voix nationale pour les éducateurs en professions de la santé, fournissant leadership, soutien et reconnaissance à ceux qui consacrent leur carrière à enseigner la prochaine génération de professionnels de la santé.",
+
+    // Truth and Reconciliation
+    truthTitle: "Vérité et réconciliation",
+    truthText1: "L'ACEM reconnaît que nous nous réunissons sur les territoires traditionnels non cédés des peuples autochtones partout au Canada. Nous nous engageons à faire progresser la réconciliation en éducation médicale.",
+    truthText2: "Nous soutenons l'intégration des savoirs autochtones, des perspectives et de la sécurité culturelle dans les programmes médicaux et nous nous engageons à remédier aux inégalités de santé affectant les communautés autochtones.",
+
+    // Quick Links
+    learnMoreMission: "En savoir plus sur notre mission",
+    meetLeadership: "Rencontrer notre leadership",
+    exploreHistory: "Explorer notre histoire",
+    joinCommunity: "Rejoindre notre communauté"
+  }
+};
