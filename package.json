@@ -1,12 +1,29 @@
 {
-  "name": "@figma/my-make-file",
+  "name": "came-website",
   "private": true,
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "description": "Canadian Association for Medical Education (CAME) official website - A modern, bilingual platform for medical educators across Canada",
   "type": "module",
   "scripts": {
+    "dev": "vite",
     "build": "vite build",
-    "dev": "vite"
+    "preview": "vite preview",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/markmax777/CAME.git"
+  },
+  "keywords": [
+    "CAME",
+    "medical-education",
+    "healthcare",
+    "canada",
+    "bilingual",
+    "react",
+    "typescript"
+  ],
+  "author": "Canadian Association for Medical Education",
   "dependencies": {
     "@emotion/react": "11.14.0",
     "@emotion/styled": "11.14.1",
