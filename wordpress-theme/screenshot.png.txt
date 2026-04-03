@@ -1,0 +1,24 @@
+SCREENSHOT PLACEHOLDER
+
+To complete your WordPress theme, you need a screenshot.png file.
+
+Requirements:
+- File name: screenshot.png
+- Dimensions: 1200 x 900 pixels (recommended)
+- Format: PNG
+- Location: Place in the root of the theme folder (same level as style.css)
+
+This screenshot will appear in the WordPress admin when browsing themes.
+
+You can:
+1. Take a screenshot of your site's homepage
+2. Create a branded graphic with the CAME logo and colors
+3. Use any image that represents your theme
+
+Once you have the image:
+1. Rename it to: screenshot.png
+2. Place it in: /wordpress-theme/screenshot.png
+3. Rezip the theme folder
+4. Upload to WordPress
+
+The theme will work without it, but having a screenshot makes it look more professional in the WordPress dashboard.
