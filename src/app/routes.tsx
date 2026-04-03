@@ -45,6 +45,7 @@ import { Store } from "./pages/Store";
 import { Contact } from "./pages/Contact";
 import { Checkout } from "./pages/Checkout";
 import { NotFound } from "./pages/NotFound";
+import NavbarDemo from "./components/NavbarDemo";
 
 export const router = createBrowserRouter([
   {
@@ -111,6 +112,9 @@ export const router = createBrowserRouter([
       { path: "store", Component: Store },
       { path: "contact", Component: Contact },
       { path: "checkout", Component: Checkout },
+      
+      // Navbar Demo
+      { path: "navbar-demo", Component: NavbarDemo },
       
       // 404
       { path: "*", Component: NotFound },
